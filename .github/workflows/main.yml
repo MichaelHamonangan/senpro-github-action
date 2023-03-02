@@ -40,7 +40,7 @@ jobs:
           port: ${{ secrets.PORT }}
           script: | 
             eval "$(ssh-agent -s)"
-            ssh-add ~/.ssh/ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDni9pl6H2QgNXhDwkSbdQ2fwkiw4zpOzs/dRebmxaNu praktikan-kamis@seniorproject-kamis
+            ssh-add ~/.ssh/senpro-ssh-1
             echo "Cek folder project";
             [ ! -d "${HOME}/senpro/460552/modul02/senpro-github-action/"] &&
               {
